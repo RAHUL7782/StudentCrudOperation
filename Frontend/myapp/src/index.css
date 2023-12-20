@@ -1,0 +1,293 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  background-color: rgba(153, 172, 30, 0.847);
+}
+
+.homeh1 {
+  text-align: center;
+  justify-content: center;
+  text-transform: uppercase;
+  background: blue;
+  color: white;
+  margin-top: 30px;
+}
+
+/* layout */
+
+
+#topmainu {
+  height: 70px;
+  width: 100%;
+  background-color: aqua;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+ul li {
+  display: inline;
+  margin: 10px;
+
+
+}
+
+li {
+  font-size: 20px;
+
+
+}
+
+
+/* insert */
+
+#record {
+  height: 455px;
+  width: 500px;
+  /* border: 1px solid rgb(13, 247, 9); */
+  margin-left: 400px;
+  margin-top: 50px;
+  background-color: skyblue;
+  border-radius: 10px;
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
+  /* transition: 0.3s; */
+  border: 3px solid rgb(166, 11, 52);
+}
+
+.inserth1 {
+  text-align: center;
+  justify-content: center;
+  text-transform: uppercase;
+  color: white;
+  background: #300c5f;
+  padding-Top: "20px";
+  border-bottom: 3px solid red;
+
+}
+
+.div {
+  margin-top: 10px;
+}
+
+input {
+  height: 45px;
+  width: 470px;
+  margin: 10px;
+  display: block;
+  margin-top: 5px;
+  padding: 15px;
+  font-size: 20px;
+  border-radius: 10px;
+
+}
+
+label {
+  font-size: 20px;
+  margin: 20px;
+
+}
+
+button {
+  height: 50px;
+  width: 470px;
+  background-color: aqua;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  font-weight: bold;
+}
+
+/* Display */
+
+.displayh1 {
+  text-align: center;
+  justify-content: center;
+  text-transform: uppercase;
+  color: white;
+  background: #530bb1;
+  padding-Top: "20px";
+  border-bottom: 3px solid red;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+
+.table {
+  align-items: center;
+  justify-content: center;
+  width: 800px;
+  height: 200px;
+  background: #a3065c;
+  color: white;
+  padding: 10px;
+  margin-left: 300px;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+
+.td {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* Search */
+
+
+.searchhead {
+  color: white;
+  background: #a3065c;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 2px;
+}
+
+.searchh2 {
+  color: blue;
+}
+
+.searchroll {
+  margin-top: 50px;
+  text-align: center;
+  justify-content: center;
+  text-transform: uppercase;
+  margin: 30px;
+}
+
+.searchrollinput {
+  margin-left: 23rem;
+  text-align: center;
+  height: 50px;
+  width: 470px;
+  margin-top: 30px;
+}
+
+.searchtable {
+  border: 4px solid rgb(58, 6, 142);
+  box-shadow: 0px 0px 80px rgb(205, 192, 201);
+}
+
+.seatchtd {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
+/* Edit */
+
+.main {
+  display: flex;
+}
+.Editdiv {
+
+  height: 455px;
+  width: 500px;
+  margin-left: 100px;
+  margin-top: 50px;
+  background-color: skyblue;
+  border-radius: 10px;
+  border: 3px solid rgb(23, 9, 219);
+}
+
+.Edith2 {
+  text-align: center;
+  justify-content: center;
+  text-transform: uppercase;
+  color: white;
+  border-radius: px;
+  background: #ba0a7d;
+  padding-Top: "20px";
+  border-bottom: 5px solid green;
+}
+
+.Editinput {
+  margin-top: 10px;
+}
+
+/* Edit second div */
+
+
+.Editdiv1 {
+  height: auto;
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+.Edit1 {
+  text-align: center;
+  justify-content: center;
+  text-transform: uppercase;
+  color: white;
+  background: #ba0a7d;
+  padding-Top: "20px";
+  border-bottom: 5px solid green;
+
+}
+
+.Editinput1 {
+  margin-top: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 500px;
+  /* height: 250px; */
+  margin-left: 100px;
+  margin-top: 50px;
+  background: yellow;
+  margin: auto;
+  border: 3px solid rgb(23, 9, 219); 
+
+}
+
+/* Delete */
+
+
+.deleteh1 {
+  text-align: center;
+  justify-content: center;
+  text-transform: uppercase;
+  color: white;
+  background: #232022;
+  padding-Top: "20px";
+  border-bottom: 5px solid green;
+
+}
+
+.deletediv1 {
+  height: auto;
+  margin-left: 100px;
+  margin-top: 50px;
+  /* border: 4px solid red; */
+}
+
+.deleteh2 {
+  text-align: center;
+  justify-content: center;
+  text-transform: uppercase;
+  color: white;
+  background: #f106a3;
+  padding-Top: "20px";
+  width: 500px;
+  margin-left: 20.5rem;
+  /* border-bottom: 5px solid green; */
+  
+}
+
+.deletename {
+  margin-top: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 500px;
+  /* height: 250px; */
+  margin-left: 100px;
+  margin-top: 50px;
+  background: yellow;
+  margin: auto;
+  border: 3px solid rgb(23, 9, 219); 
+
+}
+
+
