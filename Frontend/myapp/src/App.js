@@ -10,7 +10,7 @@ import Search from "./Search";
 import Deleted from "./Deleted";
 import Edit from "./Edit";
 
-const App = () => {
+const App  = () => {
   return (
 
     <>
