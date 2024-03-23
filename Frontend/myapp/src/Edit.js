@@ -14,8 +14,8 @@ const Edit = () => {
     }
 
     useEffect(() => {
-        loadData()
-    }, [])
+       loadData()
+     }, [])
 
 
     const myEdit = (id) => {
