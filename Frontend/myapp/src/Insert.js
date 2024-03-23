@@ -19,7 +19,7 @@ const Insert = () => {
 
             <div id="record">
                 <h1 className="inserth1">Student Records</h1>
-                
+
                 <div className="div">
                     <label>RollNo</label>
                     <input type="text" name="rollno" value={input.rollno} onChange={Handleinput} placeholder="Enter RollNo"></input>

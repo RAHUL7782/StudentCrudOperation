@@ -50,8 +50,8 @@ const Edit = () => {
                     <td>{key.city}</td>
                     <td>{key.fess}</td>
                     <td>
-                        <a href="#" onClick={() => { myEdit(key._id) }}>
-                            <img src={img} width="20px" height="20px" />
+                        <a href="/" onClick={() => { myEdit(key._id) }}>
+                            <img src={img} alt="#" width="20px" height="20px" />
                         </a>
                     </td>
 

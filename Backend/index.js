@@ -7,8 +7,7 @@ const cors = require('cors')
 app.use(cors())
 
 
-app.use(express.json())
-
+app.use(express.json());
 
 app.get("/studisplay", Student.Studentdisplay)
 app.post("/stusave",Student.sturecord)
@@ -24,6 +23,8 @@ app.post("/editsave/:id",Student.stuEditSave)
 app.listen(5000,()=>{
     console.log("your server 5000 is ready")
 });
+
+
 
 
 
