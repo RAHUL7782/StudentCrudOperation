@@ -30,8 +30,8 @@ const Deleted = () => {
                     <td>{key.city}</td>
                     <td>{key.fess}</td>
                     <td>
-                        <a href="#" onClick={() => { mydel(key._id) }}>
-                            <img src={myimg} width="20px" height="20px" />
+                        <a href="/" onClick={() => { mydel(key._id) }}>
+                            <img src={myimg}  alt="/" width="20px" height="20px" />
                         </a>
                     </td>
 
