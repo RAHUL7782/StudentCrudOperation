@@ -14,8 +14,8 @@ const Edit = () => {
     }
 
     useEffect(() => {
-       loadData()
-     }, [])
+        loadData()
+    }, [])
 
 
     const myEdit = (id) => {
@@ -51,7 +51,7 @@ const Edit = () => {
                     <td>{key.fess}</td>
                     <td>
                         <a href="/" onClick={() => { myEdit(key._id) }}>
-                            <img src={img} alt="#" width="20px" height="20px" />
+                            <img src={img} alt="" width="20px" height="20px" />
                         </a>
                     </td>
 
@@ -90,7 +90,7 @@ const Edit = () => {
 
                 {/* Edit second div */}
 
-                
+
                 <div className="Editdiv1">
                     <h1 className="Edit1">Dispaly Student Records</h1>
 
